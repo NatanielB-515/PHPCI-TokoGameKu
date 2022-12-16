@@ -15,7 +15,7 @@
 					<!-- Jika cart kosong -->
 					<?php if(empty($product)) : ?>
 						<div class="alert alert-warning" role="alert">
-							Oops, your cart is empty.
+							Maaf,Keranjangmu Kosong :(
 						</div>
 					<?php else : ?>
 						<table class="table table-bordered text-center">
@@ -55,11 +55,11 @@
 				<div class="card-footer text-muted">
 					<a href="<?= base_url('home') ?>" class="btn btn-secondary btn-sm">
 						<i class="fas fa-arrow-left"></i>
-						Back
+						Kembali
 					</a>
 					<?php if($product) : ?>
 						<a href="<?= base_url('checkout') ?>" class="btn btn-info btn-sm float-right">
-							Pay Now
+							Bayar
 							<i class="fas fa-arrow-right ml-1"></i>
 						</a>
 					<?php endif ?>

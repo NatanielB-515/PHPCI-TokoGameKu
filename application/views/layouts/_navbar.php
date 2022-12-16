@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container">
 		<a class="navbar-brand" href="<?= base_url('home') ?>">
-			<img src="<?= base_url() ?>/images/logo/logo.png" width="170" height="57" class="d-inline-block align-top" alt="logo" loading="lazy">
+			<img src="<?= base_url() ?>/images/logo/MGSTORE.png" width="170" height="57" class="d-inline-block align-top" alt="logo" loading="lazy">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

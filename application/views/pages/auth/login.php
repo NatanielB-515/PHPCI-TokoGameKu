@@ -6,7 +6,7 @@
                   <div class="row justify-content-center">
                      <div class="col-10">
                         <form action="<?= base_url('login/login') ?>" method="post" class="form-signin text-center">
-									<img class="mb-4" src="<?= base_url() ?>/images/logo/logo.png" width="210" height="72">
+									<img class="mb-4" src="<?= base_url() ?>/images/logo/MGSTORE.png" width="210" height="72">
 									
 									<?php  $this->load->view('layouts/_alert') ?>
 									
